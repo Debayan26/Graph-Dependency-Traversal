@@ -19,7 +19,7 @@ import sys
 # print(sys.path)
 sys.path.append('C:/Users/SSB-Digital-05/Downloads/CERN/packages')
 
-from dep_graph import file_reader
+from packages.dep_graph import file_reader
 
 
 def test_file_reader():
