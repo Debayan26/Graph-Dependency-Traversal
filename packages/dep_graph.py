@@ -7,6 +7,7 @@ import networkx as nx
 
 
 def file_reader(filename: str) -> None:
+    print("Hello")
     """
     Reads the JSON file and generates the dependency graph.
 
